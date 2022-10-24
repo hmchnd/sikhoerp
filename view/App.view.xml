@@ -1,0 +1,26 @@
+<mvc:View
+	controllerName="sikhoerp.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+	<App>
+		<pages>
+			<Page title="Sikho ERP">
+				<content>
+					<Panel
+						headerText="Header">
+						<content>
+							<Button
+								text="Hi"
+								press=".onShowHello"/>
+							<Input
+							
+								valueLiveUpdate="true"
+								width="60%"/>
+						</content>
+					</Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
