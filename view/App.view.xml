@@ -5,7 +5,7 @@
 	displayBlock="true">
 	<App>
 		<pages>
-			<Page title="Sikho ERP">
+			<Page title="{i18n>appTitle}">
 				<content>
 					<Panel
 						headerText="Header">
