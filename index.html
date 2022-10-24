@@ -5,20 +5,17 @@
 	<title>Sikho ERP</title>
 	<script
 		id="sap-ui-bootstrap"
-		src="https://sdk.openui5.org/1.107.0/resources/sap-ui-core.js"
-		data-sap-ui-theme="sap_belize"
-		data-sap-ui-libs="sap.m"
-		data-sap-ui-compatVersion="edge"
-		data-sap-ui-async="true"
-		data-sap-ui-onInit="module:sikhoerp/index"
+		src="https://sdk.openui5.org/1.96.12/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_fiori_3"
 		data-sap-ui-resourceroots='{
 			"sikhoerp": "./"
-		}'>
-
+		}'
+		data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+		data-sap-ui-compatVersion="edge"
+		data-sap-ui-async="true">
 	</script>
 </head>
-<body>
-<div>Hello World</div>
-
+<body class="sapUiBody" id="content">
+	<div data-sap-ui-component data-name="sikhoerp" data-id="container" data-settings='{"id" : "sikhoerp"}'></div>
 </body>
 </html>
