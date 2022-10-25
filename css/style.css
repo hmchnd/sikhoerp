@@ -1,0 +1,60 @@
+.welcomeText {
+  color: rgb(240, 171, 0);
+  font-size: 24px;
+  font-family: SAPMedium, Arial, Helvetica, sans-serif;
+
+  animation-name: welcome;
+  animation: welcome 5s infinite linear;
+}
+
+@keyframes welcome {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.IntroText_1 {
+  font-size: 20px;
+  font-family: SAPMedium, Arial, Helvetica, sans-serif;
+  text-transform: none;
+  font-weight: 400;
+  color: #333;
+}
+
+.courseweoffer {
+  font-size: 24px;
+  font-family: SAPMedium, Arial, Helvetica, sans-serif;
+  text-transform: none;
+  font-weight: 400;
+  color: #333;
+}
+
+.tile {
+  width: 200px;
+}
+
+.whoWeText {
+  color: #333;
+  font-size: 18px;
+  font-family: SAPMedium, Arial, Helvetica, sans-serif;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #333;
+  height: 200px;
+}
+
+.footeroneLiner {
+  color: white;
+  font-size: 20px;
+}
+
+.footerText1 {
+  color: white;
+  font-size: 16px;
+}
