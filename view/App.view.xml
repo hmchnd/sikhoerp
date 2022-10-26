@@ -44,26 +44,41 @@
             <HBox alignItems="Center" justifyContent="Center">
                 <f:Card class="sapUiMediumMargin" width="500px">
                     <f:header>
-                        <card:Header title="SAP Fiori Developer Course" subtitle="50+ Hour Course. No Experience Required." />
+                        <card:Header title="SAP Fiori Developer Course" subtitle="50 Live Lectures. No Experience Required." />
                     </f:header>
                     <f:content>
-                        <VBox>
+                        <VBox class="sapUiTinyMarginBegin sapUiTinyMarginEnd sapUiTinyMarginBottom">
                             <Toolbar>
                                 <ToolbarSpacer />
-                                <Title text="Heading1" level="H3" />
+                                <Title text="About this course" level="H2" />
+                                <ToolbarSpacer />
+                            </Toolbar>
+                            <Text text="Use the UI5 framework, SAP Web IDE / SAP BTP BAS and SAP Fiori Launchpad to build and run enterprise-level web applications." />
+                            <Toolbar>
+                                <ToolbarSpacer />
+                                <Title text="Course highlights:" level="H2" />
                                 <ToolbarSpacer />
                             </Toolbar>
                             <Text
-                                text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+                                text="This  course will focus on using the UI5 framework to develop enterprise-level web applications for running on the web browser. As for introduction level, we’ll start from the absolute beginner level web development introduction. We cover the basics of HTML and CSS, then followed with lots of JavaScript practice (which are easy to follow, no matter what your current level.) Then we use real-world UI5 applications, build from step-to-step, to cover how to properly use the UI5 framework, SAP Web IDE, to develop these UI5 web applications.
+
+In the end, you will be about to develop, troubleshooting, and deploy your UI5 web applications to the SAP Fiori 3.0 Launchpad for both SAP Cloud Platform (only if you have a paid user account for SAP Web IDE Full-Stack) and SAP Gateway system. We will also briefly cover how to run the UI5 application for non-SAP environment."
                             />
+
                             <Toolbar>
                                 <ToolbarSpacer />
-                                <Title text="Heading2" level="H3" />
+                                <Title text="What you’ll learn" level="H2" />
                                 <ToolbarSpacer />
                             </Toolbar>
-                            <Text
-                                text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
-                            />
+                            <Text text="* Web Development- Basics of HTML, CSS, and lots of JavaScript practice" />
+                            <Text text="* Use SAP Web IDE and SAP Fiori 3.0 Launchpad" />
+                            <Text text="* Use OData service v4 and v2 in UI5 applications" />
+                            <Text text="* JSON Model, Resource Model, and Data binding" />
+                            <Text text="* Routing and Navigation and Device API in UI5" />
+                            <Text text="* 5 real time project scenarios in UI5" />
+                            <Text text="* Deploy UI5 application to SAP Cloud Platform and SAP Gateway System" />
+                            <Text text="* Deploy UI5 application to non-SAP environment" />
+                            <Text text="* Troubleshooting and Debugging" />
                         </VBox>
                     </f:content>
                 </f:Card>
