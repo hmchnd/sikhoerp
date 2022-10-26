@@ -41,59 +41,59 @@
                 <Title text="Courses We Offer" level="H1" class="courseweoffer" />
                 <ToolbarSpacer />
             </Toolbar>
+            <HBox alignItems="Center" justifyContent="Center">
+                <f:Card class="sapUiMediumMargin" width="500px">
+                    <f:header>
+                        <card:Header title="SAP Fiori Developer Course" subtitle="50+ Hour Course. No Experience Required." />
+                    </f:header>
+                    <f:content>
+                        <VBox>
+                            <Toolbar>
+                                <ToolbarSpacer />
+                                <Title text="Heading1" level="H3" />
+                                <ToolbarSpacer />
+                            </Toolbar>
+                            <Text
+                                text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+                            />
+                            <Toolbar>
+                                <ToolbarSpacer />
+                                <Title text="Heading2" level="H3" />
+                                <ToolbarSpacer />
+                            </Toolbar>
+                            <Text
+                                text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+                            />
+                        </VBox>
+                    </f:content>
+                </f:Card>
 
-            <f:Card class="sapUiMediumMargin" width="500px">
-                <f:header>
-                    <card:Header title="SAP Fiori Developer Course" subtitle="50+ Hour Course. No Experience Required." />
-                </f:header>
-                <f:content>
-                    <VBox>
-                        <Toolbar>
-                            <ToolbarSpacer />
-                            <Title text="Heading1" level="H3" />
-                            <ToolbarSpacer />
-                        </Toolbar>
-                        <Text
-                            text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
-                        />
-                        <Toolbar>
-                            <ToolbarSpacer />
-                            <Title text="Heading2" level="H3" />
-                            <ToolbarSpacer />
-                        </Toolbar>
-                        <Text
-                            text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
-                        />
-                    </VBox>
-                </f:content>
-            </f:Card>
-
-            <f:Card class="sapUiMediumMargin" width="500px">
-                <f:header>
-                    <card:Header title="SAP BTP Fullstack Developer Course" subtitle="50+ Hour Course. No Experience Required." />
-                </f:header>
-                <f:content>
-                    <VBox>
-                        <Toolbar>
-                            <ToolbarSpacer />
-                            <Title text="Heading1" level="H3" />
-                            <ToolbarSpacer />
-                        </Toolbar>
-                        <Text
-                            text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
-                        />
-                        <Toolbar>
-                            <ToolbarSpacer />
-                            <Title text="Heading2" level="H3" />
-                            <ToolbarSpacer />
-                        </Toolbar>
-                        <Text
-                            text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
-                        />
-                    </VBox>
-                </f:content>
-            </f:Card>
-
+                <f:Card class="sapUiMediumMargin" width="500px">
+                    <f:header>
+                        <card:Header title="SAP BTP Fullstack Developer Course" subtitle="50+ Hour Course. No Experience Required." />
+                    </f:header>
+                    <f:content>
+                        <VBox>
+                            <Toolbar>
+                                <ToolbarSpacer />
+                                <Title text="Heading1" level="H3" />
+                                <ToolbarSpacer />
+                            </Toolbar>
+                            <Text
+                                text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+                            />
+                            <Toolbar>
+                                <ToolbarSpacer />
+                                <Title text="Heading2" level="H3" />
+                                <ToolbarSpacer />
+                            </Toolbar>
+                            <Text
+                                text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
+                            />
+                        </VBox>
+                    </f:content>
+                </f:Card>
+            </HBox>
             <Toolbar>
                 <ToolbarSpacer />
                 <Title text="Our Recipe to Transform your Career" level="H1" class="courseweoffer" />
@@ -160,14 +160,29 @@ Experienced Professionals" press="press">
             <Text text="Contact US" />
         </Panel>
 
-        <HBox class="footer" id="homepageFooter">
-            <VBox>
+        <HBox class="footer" id="homepageFooter" FlexAlignContent="Stretch" FlexAlignItems="Stretch">
+            <HBox class="sapUiTinyMarginTop sapUiTinyMarginBegin">
+                <Image src="./asset/SERP.png" width="55px" height="49px" decorative="true" densityAware="true" backgroundSize="cover" backgroundPosition="initial" />
+                <Text text="Opportunities don't happen, you create them." class="footeroneLiner sapUiSmallMarginTop sapUiTinyMarginBegin" />
+
+                <!-- <Text text="c 2022" class="footerText1  sapUiLargeMarginBegin sapUiTinyMarginTop" /> -->
+            </HBox>
+            <VBox class="sapUiSmallMarginTop sapUiLargeMarginBegin">
+                <Text text="Follow us on" class="footerText1 sapUiTinyMarginTop sapUiTinyMarginBegin" />
                 <HBox>
-                    <Image src="./asset/SERP.png" class="sapUiTinyMarginTop sapUiTinyMarginBegin" width="55px" height="49px" decorative="true" densityAware="true" backgroundSize="cover" backgroundPosition="initial" />
-                    <Text text="Opportunities don't happen, you create them." class="footeroneLiner sapUiSmallMarginTop sapUiTinyMarginBegin" />
+                    <Image src="./asset/LinkedinICon.svg" width="20px" height="20px" class="sapUiTinyMarginBegin sapUiTinyMarginTop" press="onLinkedinImagePress" />
+                    <Image src="./asset/TwitterIcon.svg" width="20px" height="20px" class="sapUiTinyMarginBegin sapUiTinyMarginTop" press="onLinkedinImagePress" />
                 </HBox>
-                <Text text="Follow us on Linkedin" class="footerText1 sapUiTinyMarginTop sapUiTinyMarginBegin" />
-                <Image src="./asset/LinkedinImage.png" width="30px" height="30px" class="sapUiTinyMarginBegin sapUiTinyMarginTop" press="onLinkedinImagePress" />
+            </VBox>
+
+            <VBox class="sapUiSmallMarginTop sapUiLargeMarginBegin">
+                <Text text="Services" class="footerText1 sapUiTinyMarginTop sapUiTinyMarginBegin" />
+                <Text text="- Personalised online live training" class="footerSubText1 sapUiTinyMarginTop sapUiTinyMarginBegin" />
+                <Text text="- Corporate training" class="footerSubText1 sapUiTinyMarginTop sapUiTinyMarginBegin" />
+            </VBox>
+
+            <VBox class="sapUiSmallMarginTop sapUiLargeMarginBegin">
+                <Text text="© 2022 SIKHO ERP. All rights reserved." class="footerTextcopyright sapUiTinyMarginTop sapUiTinyMarginBegin" />
             </VBox>
         </HBox>
     </l:VerticalLayout>
