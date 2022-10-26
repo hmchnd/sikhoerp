@@ -46,7 +46,7 @@
 
 .footer {
   background-color: #333;
-  height: 200px;
+  height: 100px;
 }
 
 .footeroneLiner {
@@ -57,4 +57,20 @@
 .footerText1 {
   color: white;
   font-size: 16px;
+}
+
+.footerSubText1 {
+  color: white;
+  font-size: 12px;
+}
+.footerTextcopyright {
+  color: white;
+  font-size: 12px;
+}
+
+.sapMTBStandard {
+  border-bottom: white;
+}
+.sapMPanelContent:not(.sapMPanelBGTransparent) {
+  border-bottom: white;
 }
