@@ -1,19 +1,20 @@
 .welcomeText {
-  color: rgb(240, 171, 0);
-  font-size: 24px;
+  color: white;
+  font-size: 80px;
   font-family: SAPMedium, Arial, Helvetica, sans-serif;
-
-  animation-name: welcome;
-  animation: welcome 5s infinite linear;
+  position: absolute;
+  top: 700px;
+  left: 300px;
 }
 
-@keyframes welcome {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+.vlayout {
+  position: relative;
+  text-align: center;
+}
+
+.responsiveImage {
+  width: 100%;
+  height: auto;
 }
 
 .IntroText_1 {
@@ -25,11 +26,13 @@
 }
 
 .courseweoffer {
-  font-size: 24px;
-  font-family: SAPMedium, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-family: "72-Bold", "72-Boldfull", "72", "72full", Arial, Helvetica,
+    sans-serif;
   text-transform: none;
-  font-weight: 400;
-  color: #333;
+  font-weight: normal;
+  color: #1d2d3e;
+  cursor: text;
 }
 
 .tile {
@@ -47,6 +50,11 @@
 .footer {
   background-color: #333;
   height: 100px;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .footeroneLiner {
@@ -73,4 +81,40 @@
 }
 .sapMPanelContent:not(.sapMPanelBGTransparent) {
   border-bottom: white;
+}
+
+/* Enter your custom styles here */
+.roundClass .sapMBtnInner {
+  /*button round size*/
+  background: #50bd46 !important;
+  box-shadow: 10 20 3px grey;
+  border-color: solid white;
+  color: white; /* text colour in button*/
+  padding: 10px; /*button size*/
+  text-align: centre; /*text alignment in button*/
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+
+  cursor: pointer;
+  height: 90px;
+  width: 90px;
+  position: fixed; /*this one is the main thing for the sticky button*/
+  opacity: 1;
+  top: 20rem;
+  z-index: 500;
+  left: 1700px;
+  border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.roundClass .sapMBtnText > .sapMBtnIcon {
+  display: contents;
+  line-height: 1.9rem; /* Add this line when you are using height as 6rem */
+}
+.roundClass .sapMBtnInner.sapMBtnText {
+  padding-left: 0.75rem;
+}
+.roundClass .sapMBtnContent {
+  line-height: normal;
 }
