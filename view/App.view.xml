@@ -13,32 +13,35 @@
         </IconTabHeader>
     </tnt:ToolHeader>
 
-    <l:VerticalLayout class="sapUiContentPadding">
+    <l:VerticalLayout class="sapUiContentPadding vlayout" width="100%">
         <Panel id="HomePanel">
-            <Text text="WELCOME TO  SIKHO ERP LEARNING PLATFORM" class="welcomeText sapUiSmallMarginBegin" />
+            <Button icon="sap-icon://call" text="Contact" type="Emphasized" width="5px" press="handleUrlPress" class="roundClass" />
+            <Image src="./asset/HorizonImages.jpg" alt="Horizon" class="responsiveImage" />
+            <Text text="Discover New Opportunities With Us" class="welcomeText sapUiSmallMarginBegin" />
+            <!-- 
             <Toolbar class="sapUiSmallMarginTop sapUiSmallMarginBottom">
                 <ToolbarSpacer />
                 <Title text="Who we are ?" level="H1" class="courseweoffer" />
                 <ToolbarSpacer />
-            </Toolbar>
+            </Toolbar> -->
 
-            <Text
+            <!-- <Text
                 class="sapUiTinyMarginTop sapUiSmallMarginBegin whoWeText"
                 text="SIKHO ERP is the platform to learn industry-relevant SAP skills led by domain experts. We offer online live structured classes for any individual like college students, graduates and working professionals who wants to learn skills like SAP UI5/Fiori, JavaScript, ABAP, SAP CAP Framework on SAP BTP Cloud Platform."
-            />
+            /> -->
 
-            <Text class="sapUiSmallMarginTop sapUiSmallMarginBegin whoWeText" text="We provide free of cost job assistant program along with skill training thats include career mentoring, interview preparation, resume and Linkedin profile optimization." />
+            <!-- <Text class="sapUiSmallMarginTop sapUiSmallMarginBegin whoWeText" text="We provide free of cost job assistant program along with skill training thats include career mentoring, interview preparation, resume and Linkedin profile optimization." /> -->
 
-            <Carousel class="sapUiContentPadding sapUiSmallMarginTop" loop="true">
+            <!-- <Carousel class="sapUiContentPadding sapUiSmallMarginTop" loop="true">
                 <Image src="./asset/Trainer.jpg" alt="Live Batches" width="1000px" height="500px" />
                 <Image src="./asset/bootcamp.jpg" alt="Bootcamp Session" width="1000px" height="500px" />
                 <Image src="./asset/mockInterview.jpg" alt="Mock Interview" width="1000px" height="500px" />
                 <Image src="./asset/jobReadyDeveloper.jpg" alt="Job Ready Developer" width="1000px" height="500px" />
-            </Carousel>
+            </Carousel> -->
 
             <Toolbar>
                 <ToolbarSpacer />
-                <Title text="Courses We Offer" level="H1" class="courseweoffer" />
+                <Title text="Courses We Offer" level="H1" class="courseweoffer sapUiTinyMarginTop" />
                 <ToolbarSpacer />
             </Toolbar>
             <HBox alignItems="Center" justifyContent="Center">
@@ -370,7 +373,7 @@ Experienced Professionals" press="press">
             <Text text="Contact US" />
         </Panel>
 
-        <HBox class="footer" id="homepageFooter" FlexAlignContent="Stretch" FlexAlignItems="Stretch">
+        <HBox class="footer" id="homepageFooter" FlexAlignContent="Stretch" FlexAlignItems="Stretch" width="100%">
             <HBox class="sapUiTinyMarginTop sapUiTinyMarginBegin">
                 <Image src="./asset/SERP.png" width="55px" height="49px" decorative="true" densityAware="true" backgroundSize="cover" backgroundPosition="initial" />
                 <Text text="Opportunities don't happen, you create them." class="footeroneLiner sapUiSmallMarginTop sapUiTinyMarginBegin" />
